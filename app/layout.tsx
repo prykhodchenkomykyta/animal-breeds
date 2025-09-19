@@ -3,8 +3,9 @@ import "./globals.css";
 import React from "react";
 
 export const metadata = {
-  title: "Random Breeds",
-  description: "Random cat and dog breeds — Next.js + TypeScript + Tailwind",
+  title: "Animal Breeds",
+  description:
+    "Random cat and dog breeds made with Next.js + TypeScript + TailwindCSS",
 };
 
 export default function RootLayout({
@@ -19,7 +20,7 @@ export default function RootLayout({
           <header className="bg-gray-300 shadow-sm">
             <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
               <h1 className="text-xl text-slate-600 font-semibold">
-                Random Breeds
+                Animal Breeds
               </h1>
               <nav>
                 <Link
@@ -36,8 +37,8 @@ export default function RootLayout({
 
           <footer className="bg-gray-300 border-t">
             <div className="max-w-6xl mx-auto px-4 py-4 text-sm text-slate-500">
-              Built with Next.js, TypeScript, Tailwind • Data from TheDogAPI &
-              TheCatAPI
+              Built with Next.js, TypeScript, TailwindCSS • data from TheDogAPI
+              and TheCatAPI
             </div>
           </footer>
         </div>
